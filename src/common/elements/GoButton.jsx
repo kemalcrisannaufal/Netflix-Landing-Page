@@ -19,7 +19,7 @@ const GoButton = (props) => {
 GoButton.propTypes = {
   type: PropTypes.string,
   label: PropTypes.string.isRequired,
-  classname: PropTypes,
+  classname: PropTypes.string,
 };
 
 export default GoButton;
