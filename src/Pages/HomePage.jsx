@@ -1,7 +1,7 @@
-import Hero from "../modules/hero";
+import Landing from "../modules/landing";
 
 const HomePage = () => {
-  return <Hero />;
+  return <Landing />;
 };
 
 export default HomePage;
