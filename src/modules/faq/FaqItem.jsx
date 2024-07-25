@@ -13,7 +13,7 @@ const FaqItem = (props) => {
   return (
     <>
       <div
-        className="w-full flex justify-between items-center p-5 relative mb-2 cursor-pointer"
+        className="w-full flex gap-2 justify-between items-center p-5 relative mb-2 cursor-pointer"
         onClick={handleOnClick}
       >
         <div className="absolute inset-0 w-full h-full bg-neutral-600 opacity-50" />
