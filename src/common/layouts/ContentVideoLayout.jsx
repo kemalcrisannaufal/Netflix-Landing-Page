@@ -1,6 +1,6 @@
 import PropTypes from "prop-types";
 
-const ContentLayout = (props) => {
+const ContentWithVideoLayout = (props) => {
   const { title, description, children } = props;
   return (
     <div className="w-full bg-black flex flex-col lg:flex-row items-center justify-center gap-5 px-5 py-14 lg:p-20">
@@ -17,7 +17,7 @@ const ContentLayout = (props) => {
   );
 };
 
-ContentLayout.propTypes = {
+ContentWithVideoLayout.propTypes = {
     title: PropTypes.string.isRequired,
     description: PropTypes.string.isRequired,
     children: PropTypes.node.isRequired
@@ -25,4 +25,4 @@ ContentLayout.propTypes = {
 
 
 
-export default ContentLayout;
+export default ContentWithVideoLayout;

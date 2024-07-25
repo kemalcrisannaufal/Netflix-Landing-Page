@@ -1,8 +1,8 @@
-import ContentLayout from "../../common/layouts/ContentLayout";
+import ContentWithVideoLayout from "../../common/layouts/ContentVideoLayout";
 
 const Content1 = () => {
   return (
-    <ContentLayout
+    <ContentWithVideoLayout
       title={"Nikmati di TV-mu"}
       description={
         "Tonton di Smart TV, Playstation, Xbox, Chromecast, Apple TV, pemutar Blu-ray, dan banyak lagi."
@@ -21,7 +21,7 @@ const Content1 = () => {
           className="absolute inset-0 lg:top-10 lg:left-0 z-20"
         />
       </div>
-    </ContentLayout>
+    </ContentWithVideoLayout>
   );
 };
 
