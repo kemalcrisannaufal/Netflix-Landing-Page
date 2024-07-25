@@ -20,6 +20,7 @@ const Landing = () => {
       <Content4 />
       <Separator />
       <FrequentlyAskedQuestionsSection/>
+      <Separator/>
     </>
   );
 };

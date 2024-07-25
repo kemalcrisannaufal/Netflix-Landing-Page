@@ -1,5 +1,6 @@
 import FaqItem from "./FaqItem";
 import faq from "../../common/constant/faq";
+import FormRegister from "../../common/elements/FormRegister";
 
 const FrequentlyAskedQuestionsSection = () => {
   return (
@@ -8,7 +9,10 @@ const FrequentlyAskedQuestionsSection = () => {
       {faq.map((item, index) => (
         <FaqItem key={index} question={item.question} answer={item.answer} />
       ))}
+
+      <FormRegister/>
     </div>
+
   );
 };
 
