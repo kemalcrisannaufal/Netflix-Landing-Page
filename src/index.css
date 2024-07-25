@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.text-red-netflix {
+  color: red;
+}
+
+.bg-red-netflix {
+  background-color: red;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6); 
+  z-index: 1;
+}
+
+.hero {
+  background-image: url("images/background.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.bg-shadow {
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.hero-content {
+  height: 90vh;
+}
