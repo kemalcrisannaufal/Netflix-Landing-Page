@@ -9,7 +9,7 @@ const Header = () => {
         <img src={NetflixLogo} alt="" className="w-24 md:w-36" />
       </div>
       <div className="flex gap-5">
-        <LanguageSelector />
+        <LanguageSelector showOption={false} />
         <Button type="button" label="Masuk" />
       </div>
     </div>
