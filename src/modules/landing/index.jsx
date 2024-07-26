@@ -5,6 +5,7 @@ import Content2 from "../content_2";
 import Content3 from "../content_3";
 import Content4 from "../content_4";
 import FrequentlyAskedQuestionsSection from "../faq/index";
+import Footer from "../footer";
 
 const Landing = () => {
   return (
@@ -21,6 +22,7 @@ const Landing = () => {
       <Separator />
       <FrequentlyAskedQuestionsSection/>
       <Separator/>
+      <Footer/>
     </>
   );
 };
