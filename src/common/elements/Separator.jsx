@@ -1,5 +1,5 @@
 const Separator = () => {
-  return <div className="border border-b-8 border-slate-500" />;
+  return <div className="border border-b-8 border-neutral-600" />;
 };
 
 export default Separator;
